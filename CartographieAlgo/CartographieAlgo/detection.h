@@ -1,0 +1,1 @@
+int detectionEnLigne(Robot robot, int grille[Taille_grille][Taille_grille], int veriteTerrain[Taille_grille][Taille_grille]);
