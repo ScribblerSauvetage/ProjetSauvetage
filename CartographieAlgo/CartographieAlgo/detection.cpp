@@ -24,6 +24,8 @@ int detectionEnLigne(Robot robot, int grille[Taille_grille][Taille_grille], int 
     if(veriteTerrain[x][y]==1){
       grille[x][y] = 1;
       return distance;
+    }else{
+      grille[x][y] = 2;
     }
     distance++;
     x+=vx;
